@@ -30,9 +30,10 @@ body{
 
 .card img{
     float: left;
-    width: 15%;
+    width: 18%;
     margin-bottom: 20px;
     margin-right: 10px;
+   padding-top: 10px;
 }
 
 .cinza{
