@@ -21,6 +21,7 @@ body{
     position: relative;
     margin: 0;
     padding: 20px;
+    border-radius: 15px;
     
 }
 
@@ -56,13 +57,17 @@ hr{
     line-height: 1.2; 
 }
 
-.bottom{
+
+button {
+    border: none;
+    font: inherit;
     background-color: #0d798f;
     text-align: center;
     color: #ffffff;
-    width: 100px;
+    width: 300px;
     position: absolute;
     padding: 10px 20px;
     right: 30px;
     margin-top: 20px;
+    
 }
