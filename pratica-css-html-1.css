@@ -4,6 +4,7 @@ body{
     align-items:center;
     flex-direction:column;
     font-family: "Inter", sans-serif;
+    flex-direction: column;
     
 }
 
@@ -15,7 +16,7 @@ body{
 
 .container{
     background: #ffffff;
-    width: 80%;
+    width: 800px;
     align-items: center;
     position: relative;
     margin: 0;
@@ -58,7 +59,7 @@ hr{
     background-color: #0d798f;
     text-align: center;
     color: #ffffff;
-    width: 90px;
+    width: 100px;
     position: absolute;
     padding: 10px 20px;
     right: 30px;
