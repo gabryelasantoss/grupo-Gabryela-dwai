@@ -1,28 +1,29 @@
 body{
-    background: #F5F5F5;
-    display:flex;
-    align-items:center;
-    flex-direction:column;
-    font-family: "Inter", sans-serif;
-    flex-direction: column;
-    
-}
-
-.titulo{
-    text-align: center;
-    color: #AAAAAA;
-    font-weight: normal;
-}
-
-.container{
-    background: #ffffff;
-    width: 800px;
     align-items: center;
-    position: relative;
-    margin: 0;
-    padding: 20px;
-    border-radius: 15px;
-    
+    background: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    font-family: "Inter", sans-serif;
+}
+
+.azul{
+    color: #0d798f;
+    margin-top: 5px;
+    margin-bottom: 5px; 
+    line-height: 1.2; 
+}
+
+button {
+    background-color: #0d798f;
+    border: none;
+    color: #ffffff;
+    font: inherit;
+    margin-top: 20px;
+    padding: 10px 20px;
+    position: absolute;
+    right: 30px;
+    text-align: center;
+    width: 300px;
 }
 
 .card{
@@ -31,87 +32,74 @@ body{
 
 .card img{
     float: left;
-    width: 18%;
     margin-bottom: 20px;
     margin-right: 10px;
-   padding-top: 10px;
+    padding-top: 10px;
+    width: 18%;
 }
 
 .cinza{
-    color:#AAAAAA
-}
-
-.azul{
-    color: #0d798f
-}
-
-hr{
-    margin-top: 100px;
-    clear: both;
-    border-top: 1px solid #E0E0E0;
-}
-
-.azul, .cinza, .texto {
+    color:#AAAAAA;
     margin-top: 5px;
     margin-bottom: 5px; 
     line-height: 1.2; 
 }
 
-
-button {
-    border: none;
-    font: inherit;
-    background-color: #0d798f;
-    text-align: center;
-    color: #ffffff;
-    width: 300px;
-    position: absolute;
-    padding: 10px 20px;
-    right: 30px;
-    margin-top: 20px;
-    
+.container{
+    align-items: center;
+    background: #ffffff;
+    border-radius: 15px;
+    margin: 0;
+    padding: 20px;
+    position: relative;
+    width: 800px;
 }
-
 
 .contatos {
     text-align: center;
 }
 
+.contatos a {
+    color: #0d798f;
+    text-decoration: none;
+}
+
 .contatos footer {
     background-color: #ffffff;
-    padding: 15px;
     border-radius: 8px;
-   
-}
-.contatos ul {
-    list-style: none;
+    padding: 15px;
 }
 
 .contatos li {
     margin-bottom: 10px;
 }
 
-.contatos a {
-    text-decoration: none;
-    color: #0d798f;
+.contatos ul {
+    list-style: none;
+}
+
+hr{
+    border-top: 1px solid #E0E0E0;
+    clear: both;
+    margin-top: 100px;
 }
 
 .info{
-    font-weight:normal ;
+    font-weight: normal;
 }
 
 nav {
     background-color: #848d8f;
-    padding: 15px;
     border-radius: 15px;
+    padding: 15px;
 }
 
 nav ul {
     display: flex;
     justify-content: center;
     list-style: none;
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
 nav ul li {
@@ -120,11 +108,22 @@ nav ul li {
 
 nav ul li a {
     color: #ffffff;
-    text-decoration: none;
     font-weight: bold;
+    text-decoration: none;
 }
 
 nav ul li a:hover {
     text-decoration: underline;
 }
 
+.titulo{
+    color: #0d798f;
+    font-weight: normal;
+    text-align: center;
+}
+
+.texto {
+    margin-top: 5px;
+    margin-bottom: 5px; 
+    line-height: 1.2; 
+}
