@@ -11,7 +11,7 @@ body{
 .titulo{
     text-align: center;
     color: #AAAAAA;
-    font-weight: 1;
+    font-weight: normal;
 }
 
 .container{
@@ -71,3 +71,33 @@ button {
     margin-top: 20px;
     
 }
+
+
+.contatos {
+    text-align: center;
+}
+
+.contatos footer {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+   
+}
+.contatos ul {
+    list-style: none;
+}
+
+.contatos li {
+    margin-bottom: 10px;
+}
+
+.contatos a {
+    text-decoration: none;
+    color: #0d798f;
+}
+
+.info{
+    font-weight:normal ;
+}
+
+
